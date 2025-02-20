@@ -1,44 +1,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<pre><code>    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/posts/2020/07/Flutter/&lt;/loc&gt;
-        &lt;lastmod&gt;Wed Jul 01 2020 00:00:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/posts/2020/07/Kotlin/&lt;/loc&gt;
-        &lt;lastmod&gt;Wed Jul 01 2020 00:00:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/404/&lt;/loc&gt;
-        &lt;lastmod&gt;Thu Feb 20 2025 15:16:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/about/&lt;/loc&gt;
-        &lt;lastmod&gt;Thu Feb 20 2025 15:16:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/&lt;/loc&gt;
-        &lt;lastmod&gt;Thu Feb 20 2025 15:16:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/tags/posts/&lt;/loc&gt;
-        &lt;lastmod&gt;Thu Feb 20 2025 15:16:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
-        &lt;loc&gt;http://localhost:8080/tags/&lt;/loc&gt;
-        &lt;lastmod&gt;Thu Feb 20 2025 15:16:00 GMT+0000 (Coordinated Universal Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-</code></pre>
+<p><url>
+<loc><a href="http://localhost:8080/posts/2020/07/Flutter/">http://localhost:8080/posts/2020/07/Flutter/</a></loc>
+<lastmod>Wed Jul 01 2020 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/posts/2020/07/Kotlin/">http://localhost:8080/posts/2020/07/Kotlin/</a></loc>
+<lastmod>Wed Jul 01 2020 00:00:00 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/404/">http://localhost:8080/404/</a></loc>
+<lastmod>Thu Feb 20 2025 20:25:16 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/about/">http://localhost:8080/about/</a></loc>
+<lastmod>Thu Feb 20 2025 20:25:16 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/">http://localhost:8080/</a></loc>
+<lastmod>Thu Feb 20 2025 20:25:16 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/tags/posts/">http://localhost:8080/tags/posts/</a></loc>
+<lastmod>Thu Feb 20 2025 20:25:16 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
+<p><url>
+<loc><a href="http://localhost:8080/tags/">http://localhost:8080/tags/</a></loc>
+<lastmod>Thu Feb 20 2025 20:25:16 GMT+0000 (Coordinated Universal Time)</lastmod>
+<changefreq></changefreq>
+</url></p>
 </urlset>

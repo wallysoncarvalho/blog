@@ -2,21 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-  	<meta name='viewport' content='width=device-width'>
+  	<meta name="viewport" content="width=device-width">
 
     <title>My Blog</title>
-    <meta name='description' content=Welcome to my blog>
-    <meta name="theme-color" content="#ffffff"/>
-    <meta name="generator" content="Eleventy v1.0.2">
+    <meta name="description" content="Welcome" to="" my="" blog="">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="generator" content="Eleventy v3.0.0">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/blog/assets/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/blog/manifest.json">
 
     <link rel="preload" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"></noscript>
-    <link href="/assets/styles/tailwind.css" rel="stylesheet" />
-    <link href="/assets/styles/index.css" rel="stylesheet" />
+    <link href="/blog/assets/styles/tailwind.css" rel="stylesheet">
+    <link href="/blog/assets/styles/index.css" rel="stylesheet">
     <script>
       const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
       if (isDarkMode()) {
@@ -36,10 +36,10 @@
   
 <nav>
   <ul class="flex py-2 border-b-2 mb-6">
-    <li class="mr-6"><a href="/">Home</a></li>
-    <li class="mr-6"><a href="/tags">Tags</a></li>
-    <li class="mr-6"><a href="/about">About</a></li>
-    <li class="mr-6"><span class="cursor-pointer" id="toggleDarkMode">Dark mode</spam></li>
+    <li class="mr-6"><a href="/blog/">Home</a></li>
+    <li class="mr-6"><a href="/blog/tags">Tags</a></li>
+    <li class="mr-6"><a href="/blog/about">About</a></li>
+    <li class="mr-6"><span class="cursor-pointer" id="toggleDarkMode">Dark mode</span></li>
   </ul>
 </nav>
 
@@ -57,13 +57,13 @@
     
   
     
-      <a href="/tags/kotlin">
+      <a href="/blog/tags/kotlin">
         <span class="post-tag">kotlin</span>
       </a>
     
   
     
-      <a href="/tags/android">
+      <a href="/blog/tags/android">
         <span class="post-tag">android</span>
       </a>
     
@@ -72,7 +72,7 @@
 
 <div class="prose dark:prose-invert hover:prose-a:text-blue-500">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-<img class="my-4" src="/assets/img/posts/mailbox.jpg" alt="mailbox" /></p>
+<img class="my-4" src="/blog/assets/img/posts/mailbox.jpg" alt="mailbox"></p>
 <h1 id="h1-heading" tabindex="-1"><a class="header-anchor" href="#h1-heading"><span>h1 Heading</span></a></h1>
 <h2 id="h2-heading" tabindex="-1"><a class="header-anchor" href="#h2-heading"><span>h2 Heading</span></a></h2>
 <h3>h3 Heading</h3>
@@ -144,11 +144,10 @@
 <h2 id="code" tabindex="-1"><a class="header-anchor" href="#code"><span>Code</span></a></h2>
 <p>Inline <code>code</code></p>
 <p>Indented code</p>
-<pre><code>// Some comments
+<p>// Some comments
 line 1 of code
 line 2 of code
-line 3 of code
-</code></pre>
+line 3 of code</p>
 <p>Block code &quot;fences&quot;</p>
 <pre><code>Sample text here...
 </code></pre>
@@ -221,7 +220,7 @@ line 3 of code
   <div class="max-w-screen-sm md:max-w-screen-md mx-auto px-8">
     <p class="text-sm py-2 text-right">
       
-        <a href=https://github.com/httpsterio>Github</a> 
+        <a href="https://github.com/httpsterio">Github</a> 
       
 
       
