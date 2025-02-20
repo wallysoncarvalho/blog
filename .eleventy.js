@@ -3,10 +3,16 @@ const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 const { DateTime } = require("luxon")
 
-module.exports = function(eleventyConfig) {
+module.exports = async function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
-  
+
+  const {EleventyHtmlBasePlugin} = await import("@11ty/eleventy");
+
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
+    baseHref: '/blog/'
+  })
+
   // To enable merging of tags
   eleventyConfig.setDataDeepMerge(true)
 
@@ -47,6 +53,7 @@ module.exports = function(eleventyConfig) {
   })
 
   const md = markdownIt({ html: true, linkify: true })
+  
   md.use(markdownItAnchor, { 
     level: [1, 2], 
     permalink: markdownItAnchor.permalink.headerLink({ 
@@ -54,6 +61,7 @@ module.exports = function(eleventyConfig) {
       class: 'header-anchor',
     })
   })
+
   eleventyConfig.setLibrary('md', md)
 
   // creates a shortcode that allows inserting images with alt-texts. Usage {% asset_img 'imagename','alt-text' %}
