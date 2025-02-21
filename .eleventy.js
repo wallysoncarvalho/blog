@@ -7,10 +7,10 @@ module.exports = async function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  const {EleventyHtmlBasePlugin} = await import("@11ty/eleventy");
+  const {EleventyHtmlBasePlugin} = await import("@11ty/eleventy")
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
-    baseHref: '/blog/'
+    baseHref: process.env.NODE_ENV === 'prd' ? '/blog/' : ''
   })
 
   // To enable merging of tags
